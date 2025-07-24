@@ -15,5 +15,13 @@ function ligarLampadaSala(){
 }
 
 function ligarLampadaCozinha(){
-
+    if(lampadaCozinhaLigada == false){
+        lampadaCozinhaLigada = true;
+        document.getElementById("bt-cozinha").textContent = "Desligar";
+    }
+    else{
+        lampadaCozinhaLigada = false;
+        document.getElementById("bt-cozinha").textContent = "Ligar";
+    }
+    document.getElementById("lamp-cozinha").classList.toggle("acesa");
 }
