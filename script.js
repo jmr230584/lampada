@@ -1,0 +1,10 @@
+
+
+function ligarLampadaSala(){
+    
+
+}
+
+function ligarLampadaCozinha(){
+
+}
