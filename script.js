@@ -50,7 +50,7 @@ function ligarLampadaCozinha(){
     else{
         lampadaCozinhaLigada = false;
         document.getElementById("bt-cozinha").textContent = "Ligar";
-        msg.destinationName = "senai661/lampada/cozinha/on";
+        msg.destinationName = "senai661/lampada/cozinha/off";
     }
     document.getElementById("lamp-cozinha").classList.toggle("acesa");
     clienteWeb.send(msg)
